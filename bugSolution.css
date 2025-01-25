@@ -1,0 +1,8 @@
+/* bugSolution.css */
+
+.container {
+  width: calc((100% - 20px) / 2);
+  /*Ensuring proper order of operations and unit consistency resolves the issue*/
+}
+
+/*In the original bug.css, the calculation was likely ambiguous or incorrect due to the units and the absence of parentheses, leading to unexpected width of the container element*/
